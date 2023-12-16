@@ -34,6 +34,9 @@ Understanding stack and queue data structures is crucial in computer science. Th
 1. **Reverse a Queue:**
    - Reverse the elements of a queue using a stack.
 
+2. **Check if parentheses are balanced:**
+   - Ckech if an expression has balanced parentheses or not using a stack.
+
 ## How to Use
 
 1. Clone the repository:
