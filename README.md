@@ -8,8 +8,6 @@ This repository contains C language implementations of stack and queue data stru
 - [Implemented Data Structures](#implemented-data-structures)
 - [Exercise Problems](#exercise-problems)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -26,7 +24,6 @@ Understanding stack and queue data structures is crucial in computer science. Th
 
 ### Queue using Linked List
 
-- **initializeQueue(Queue\*\* queue):** Initializes an empty queue.
 - **enqueue(Queue\*\* head, int item):** Adds an item to the rear/end of the queue.
 - **dequeue(Queue\*\* head):** Removes and returns the item from the front of the queue.
 - **front(Queue\* head):** Returns the item at the front without removing it.
@@ -37,12 +34,28 @@ Understanding stack and queue data structures is crucial in computer science. Th
 1. **Reverse a Queue:**
    - Reverse the elements of a queue using a stack.
 
-
 ## How to Use
 
 1. Clone the repository:
 
+   ```bash
+   git clone https://github.com/maryqu3en/stack-queue-in-LL.git
+   ```
 
-   ```bash 
-   git clone https://github.com/maryqu3en/stack-queue-in-LL.git 
-   ``` 
+2. Navigate to the project directory:
+
+   ```bash
+   cd stack-queue-in-LL
+   ```
+
+3. Compile the C files:
+
+   ```bash
+   gcc -o main *.c
+   ```
+
+4. Run the program:
+
+   ```bash
+   ./main
+   ```
